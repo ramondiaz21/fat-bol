@@ -1,0 +1,22 @@
+.jugadoras {
+  padding: 70px 0;
+  background-color: #e8e8e8;
+
+  .heading-1 {
+    color: #34003a;
+  }
+
+  .image-wrapper {
+    align-items: center;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-items: center;
+
+    @media (max-width: 767.98px) {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 0;
+    }
+  }
+}

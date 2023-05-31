@@ -1,0 +1,19 @@
+.copyright {
+  padding: 20px 0;
+  background-color: #002742;
+
+  .heading-6 {
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    font-weight: 300;
+
+    a {
+      font-size: inherit;
+      color:#88ff26!important;
+
+      &:hover {
+        color:#88ff26!important;
+      }
+    }
+  }
+}

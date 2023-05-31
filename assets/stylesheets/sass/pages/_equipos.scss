@@ -1,0 +1,73 @@
+.equipos {
+  .equipos-wrapper {
+    padding: 50px 0;
+
+    @media (max-width: 767.98px) {
+      padding: 30px 0;
+    }
+  }
+
+  #players-container {
+    display: grid;
+    gap: 50px !important;
+    grid-template-columns: auto auto auto !important;
+
+    @media (max-width: 767.98px) {
+      gap: 25px !important;
+      grid-template-columns: auto !important;
+    }
+  }
+
+  label {
+    color: #002742;
+    font-family: "Bebas Neue", cursive;
+  }
+
+  .heading-1,
+  .heading-3,
+  .heading-2 {
+    display: block;
+    font-family: "Bebas Neue", cursive;
+    margin-bottom: 0;
+    width: 100%;
+  }
+
+  .heading-2 {
+    margin: 20px 0 40px 0;
+  }
+
+  .heading-6 {
+    display: block;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    margin: 7.5px 0;
+    width: 100%;
+  }
+
+  .form-control {
+    border: 1px solid #88ff26;
+    border-radius: 12px !important;
+    font-family: fuente;
+    height: auto;
+    padding: 0.5em 1em;
+  }
+
+  .btn {
+    background-color: #002742;
+    border: 1px solid #002742;
+    border-radius: 12px;
+    font-family: "Bebas Neue", cursive;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+    padding: 0.5em 3em;
+    text-align: center;
+    width: fit-content;
+  }
+
+  .form-control {
+    &:focus {
+      box-shadow: 0 0px 10px 2px #88ff2682;
+    }
+  }
+}

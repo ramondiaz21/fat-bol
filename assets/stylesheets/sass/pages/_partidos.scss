@@ -1,0 +1,61 @@
+.partidos {
+  background-image: url("../../images/Recurso5@2x_.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 0;
+
+  .heading-1 {
+    margin-bottom: 70px;
+    text-shadow: 7px 7px 5px #00000066;
+  }
+
+  .partido-wrapper {
+    background-color: rgba(0, 0, 0, 0.5); /* negro con opacidad del 50% */
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #fff; /* texto en color blanco */
+    padding: 50px;
+  }
+
+  h5 {
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    font-family: fuente;
+    font-weight: 200;
+  }
+
+  .partidos-wrapper {
+    align-items: center;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-items: center;
+
+    @media (max-width: 767.98px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    h1,h2,h3,h4,h5 {
+      margin: 0;
+    }
+  }
+
+  .heading-4 {
+    margin-bottom: 0;
+    font-family: fuente;
+    font-size: 2.318em;
+  }
+
+  i {
+    color: white;
+    font-size: 20px;
+    margin-right: 15px;
+  }
+
+  hr {
+    margin: 4em 0;
+    border-top: 1px solid #eeeeee99;
+  }
+}

@@ -1,0 +1,23 @@
+.teams {
+  padding: 70px 0;
+
+  .images-wrapper {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+
+    
+    @media (max-width: 991.98px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    @media (max-width: 767.98px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  img {
+    width: 100%;
+  }
+}
